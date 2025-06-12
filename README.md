@@ -133,6 +133,7 @@ Integrate with IoT fall detection devices
 Use camera + pose detection for inactivity monitoring
 
 Learn preferences over time
+How to Run:
 1. Set up your environment:
 
 Unzip JavaFX SDK and export it in the classpath.
