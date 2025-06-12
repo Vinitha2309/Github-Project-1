@@ -133,6 +133,25 @@ Integrate with IoT fall detection devices
 Use camera + pose detection for inactivity monitoring
 
 Learn preferences over time
+1. Set up your environment:
+
+Unzip JavaFX SDK and export it in the classpath.
+
+Download the SQLite JDBC .jar file: sqlite-jdbc
+
+
+
+2. Compile the Code:
+
+javac --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls \
+  -cp .:sqlite-jdbc-3.42.0.0.jar *.java
+
+
+3. Run the App:
+
+java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls \
+  -cp .:sqlite-jdbc-3.42.0.0.jar Main
+
 
 
 
