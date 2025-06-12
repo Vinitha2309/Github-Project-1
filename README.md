@@ -16,35 +16,7 @@ Caregiver notification system
 
 Optional voice interface for hands-free use
 
-⚙️ System Architecture
-
-+---------------------+
-|   Java GUI (JavaFX) |
-+----------+----------+
-           |
-           v
-+---------------------------+
-| Reminder Engine (Scheduler)|
-+---------------------------+
-           |
-           v
-+---------------------------+
-| NLP + Dialogue Engine     |
-| (Simple intents + GPT API)|
-+---------------------------+
-           |
-           v
-+---------------------------+
-| Storage (SQLite DB)      |
-+---------------------------+
-           |
-           v
-+---------------------------+
-| Emergency Notification   |
-| (SMS / Email / MQTT)     |
-+---------------------------+
-
-🧩 Key Features
+🔑 Features
 
 1. ✅ Medication & Task Reminder
 
